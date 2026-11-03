@@ -1,0 +1,124 @@
+@media (min-width: 0px) {
+    img.medium {
+        height: 80px;
+    }
+    figcaption {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 460px) {
+    img.medium {
+        height: 120px;
+    }
+    figcaption {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 780px) {
+    img.medium {
+        height: 150px;
+    }
+    figcaption {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1000px) {
+        img.medium {
+        height: 200px;
+    }
+    figcaption {
+        font-size: 16px;
+    }
+}
+
+a.black {
+    color: black;
+    text-decoration: none;
+
+}
+
+a.black:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url('/assets/images/background.jpg')
+}
+
+footer {
+    margin-top: 3em;
+}
+
+main {
+    margin-top: 1em;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+/* aims to create a background for text to be written over */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.text-box {
+    background-color: #e7e3d8;
+    text-align: left;
+    margin: 0.75em;
+    padding: 15px;
+    border-radius: 0.75em;
+}
+
+/* Overriding Bootstrap */
+.bg-white {
+    --bs-bg-opacity: 0.3;
+}
+
+
+
+
+
+
+
+/* Learned anchors in CSS from https://codepip.com/games/anchoreum/ */
+#robert-image1 {
+    anchor-name: --a1;
+}
+
+#robert-caption1 {
+    position: absolute;
+    position-anchor: --a1;
+    position-area: bottom;
+
+}
+
+#robert-image2 {
+    anchor-name: --a2;
+}
+
+#robert-caption2 {
+    position: absolute;
+    position-anchor: --a2;
+    position-area: bottom;
+
+}
+
+#robert-image3 {
+    anchor-name: --a3;
+}
+
+#robert-caption3 {
+    position: absolute;
+    position-anchor: --a3;
+    position-area: bottom;
+
+}
