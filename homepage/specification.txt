@@ -1,9 +1,0 @@
-Some of the HTML tags:
-div, header, main, table, thead, tr, th, td, tbody, nav, img, figure, figcaption
-
-Some of the CSS properties:
-center, text-box, #root, main, footer, body, a.black, a.black:hover
-
-
-I created images where once you click an audio started to play, and once clicked again it would stop.
-I used Bootstrap by integrating its Grid structure, navbar component, and some utility classes.
